@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+
+    <em:id>old-lion-fullscreen@flyingtealeaf.com</em:id>
+    <em:version>1.0</em:version>
+    <em:type>2</em:type>
+
+	<!-- Front End Metadata -->
+
+    <em:name>Old Lion Fullscreen</em:name>
+    <em:description>Firefox 14+ only supports Fullscreen mode that is native to Lion. While not everybody is happy with how Lion handles fullscreen mode, this extension reverts the old behavior which plays nicely with Spaces.</em:description>
+    <em:creator>Artur Pyrogovskyi</em:creator>
+    <em:homepageURL>http://github.com/arp/old-lion-fullscreen</em:homepageURL>
+
+    <!-- Describe the Firefox versions we support -->
+
+    <em:targetApplication>
+      <Description>
+      	<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>200.0.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+
+</RDF>

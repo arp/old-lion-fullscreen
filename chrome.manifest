@@ -1,0 +1,4 @@
+content old-lion-fullscreen chrome/content/
+
+# Firefox
+overlay	chrome://browser/content/browser.xul chrome://old-lion-fullscreen/content/old-lion-fullscreen.xul
