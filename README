@@ -1,0 +1,3 @@
+This extension "unfixes" the issue described at https://bugzilla.mozilla.org/show_bug.cgi?id=639705 and disables Mac OS X Lion-specific Fullscreen button. Tested on 10.7.4 only, but should work on Mountain Lion as well.
+
+The reason why native Fullscreen doesn't suit everybody is that it (intentionally) breaks Spaces: second monitor becomes useless and it also doesn't seem possible to assign keyboard shortcuts for switching to a fullscreened Space. Once installed, Old Lion Fullscreen reverts the way Fullscreen worked before Firefox 14.
